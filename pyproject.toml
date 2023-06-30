@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-template"
+version = "0.1.0"
+description = "Template used as a new project starter pack"
+authors = ["Léo Stewart <leokun@me.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+pycln = "^2.1.5"
+isort = "^5.12.0"
+black = "^23.3.0"
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
